@@ -1,0 +1,82 @@
+body{
+	background-image:url(../images/blue-iphone-wallpaper-1.jpg);
+	 margin-bottom:50px;
+	 margin-left:200px;
+	 margin-right:200px;
+	 margin-top:20px;
+	 
+	 
+		}
+div{ background:url(../images/paris.jpeg);
+	height:600px;
+	width:450px;}
+#tab1{ margin-left:40px;}
+#tab2{ margin-right:40px;}
+
+
+#input1{ background-color:#0CF;
+width:150px;
+height:30px;
+font:"Agency FB";
+	  }
+	  h2{font:"Agency FB";}
+	  
+	  
+.toggle_switch 
+ {
+  width: 60px;
+  height: 20px; 
+  position: relative;
+  display: inline-block;
+  
+ }
+
+.toggle_switch input {display:none;}
+
+.slider 
+ {
+	  
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+ }
+ 
+ .slider:before 
+   { position: absolute;
+   content: "";
+   height: 26px;
+   width: 26px;
+   left: 1px; 
+   top: -4px;
+   background-color: white;
+   -webkit-transition: .4s;
+   transition: .4s; border:2px solid gray; 
+   }
+ input:checked + .slider 
+  { 
+  background-color: #333; 
+  } 
+  
+ input:focus + .slider 
+  { 
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+ input:checked + .slider:before 
+ {
+	 -webkit-transform: translateX(29px);
+	 -ms-transform: translateX(29px);
+	 transform: translateX(29px);
+	 border:2px solid #2196F3
+ }
+	
+ .slider { border-radius: 50px; }
+ 
+ .slider:before { border-radius: 100%; }
+	  
