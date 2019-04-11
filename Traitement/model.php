@@ -26,10 +26,10 @@
 	}
 
 	function getConnexion(){
-		$servername = "127.0.0.1";
-		$username = "root";
-		$data_base ="frenchtrips";
-		$password = "";
+		$servername = "remotemysql.com:3306";
+		$username = "x8bg35vRs7";
+		$data_base ="x8bg35vRs7";
+		$password = "LCnuGB56YS";
 
 		$conn = new mysqli($servername, $username, $password,$data_base);
 
