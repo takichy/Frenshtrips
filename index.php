@@ -128,14 +128,14 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input name="email" type="text" class="form-control" placeholder="Email">
+						<input name="email" type="text" class="form-control" value="abdelhayoulidiomali@frenshtrips.com" placeholder="Email">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input name="mot_de_passe" type="password" class="form-control" placeholder="mot de passe">
+						<input name="mot_de_passe" type="password" value="123456" class="form-control" placeholder="mot de passe">
 					</div>
 					<div class="row align-items-center remember">
 						<input type="checkbox">Se Souvenir de Moi
