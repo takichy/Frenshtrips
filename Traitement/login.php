@@ -35,12 +35,13 @@
         $ville = $_POST['ville'];
 
 		$con = getConnexion();
-
-		if ($insert = $con->prepare("INSERT INTO users(email, password, sexe, nom, prenom, date_naissance, telephone,  code_postal, ville, confirme_password) VALUES (?,?,?,?,?,?,?,?,?,?)")) {
+		header('Location:../index.php');
+		/* impossible de crée des comptes juste por pas grandir la base de données */
+		/*if ($insert = $con->prepare("INSERT INTO users(email, password, sexe, nom, prenom, date_naissance, telephone,  code_postal, ville, confirme_password) VALUES (?,?,?,?,?,?,?,?,?,?)")) {
 			$insert->bind_param('ssssssiiss',$mail,$password,$sexe,$nom,$prenom,$date,$num,$cp,$ville,$password);
 			$insert->execute();
 			header('Location:../index.php');
-		}
+		}*/
 	}
 	else{
 		header('Location:../index.php');
