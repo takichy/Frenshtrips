@@ -3,9 +3,9 @@
 	
 	function getConnexion(){
 		$servername = "remotemysql.com:3306";
-		$username = "x8bg35vRs7";
-		$data_base ="x8bg35vRs7";
-		$password = "LCnuGB56YS";
+		$username = "pM3iIR0Pne";
+		$data_base ="pM3iIR0Pne";
+		$password = "lx6k9zLLSn";
 
 		$conn = new mysqli($servername, $username, $password,$data_base);
 
